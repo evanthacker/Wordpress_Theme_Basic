@@ -27,10 +27,6 @@
 
              <?php endif; ?>
 
-            <?php if(){
-
-             }
-             ?>
         </div>
     </div>
 
