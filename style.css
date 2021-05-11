@@ -50,6 +50,7 @@ footer{
 
 article.post{
     border-bottom: 1px #cccccc solid;
+    padding-bottom: 20px;
     overflow: hidden;
 }
 
@@ -60,4 +61,10 @@ article.post a.button{
     padding: 10px 5px;
     margin-bottom: 10px;
     text-decoration: none;
+}
+
+.meta{
+    background: #333;
+    color: #ffffff;
+    padding: 5px;
 }

@@ -1,6 +1,6 @@
 <footer>
     <div class="container">
-        <p>&copy; <?php the_date(); ?> - <?php bloginfo('name'); ?></p>
+        <p>Evan Thacker - 2021</p>
     </div>
 </footer>
     <?php wp_footer(); >
