@@ -10,6 +10,10 @@
                             <div class="meta">
                             Created By <?php the_author(); ?> on <?php the_date(); ?>
                             </div>
+                                    <?php if(has_post_thumbnail()) : ?>
+                                        <div class="post-thumbnail">
+                                            <?php the_post_thumbnail(); ?>
+                                    <?php endif; ?>
                         <?php the_content(); ?>
                 <?php endwhile; ?>
                     </article>

@@ -17,7 +17,7 @@ body{
 }
 
 a{
-    color: #393939;
+    color: #333;
 }
 
 header{
@@ -49,7 +49,7 @@ footer{
 }
 
 article.post{
-    border-bottom: 1px #cccccc solid;
+    border-bottom: 1px #ccc solid;
     padding-bottom: 20px;
     overflow: hidden;
 }
@@ -67,4 +67,9 @@ article.post a.button{
     background: #333;
     color: #ffffff;
     padding: 5px;
+}
+
+.post-thumbnail img{
+    width: 100%;
+    height: auto;
 }

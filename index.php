@@ -9,16 +9,20 @@
                                 <?php the_title(); ?>
                             </a>
                         </h3>
-                            <div class="meta">
-                            Created By <?php the_author(); ?> on <?php the_date(); ?>
-                            </div>
-                        <?php the_content(); ?>
-                        <br>
+                                    <div class="meta">
+                                        Created By <?php the_author(); ?> on <?php the_date(); ?>
+                                    </div>
+                                        <?php if(has_post_thumbnail()) : ?>
+                                            <div class="post-thumbnail">
+                                                <?php the_post_thumbnail(); ?>
+                                        <?php endif; ?>
+                                <?php the_excerpt(); ?>
+                            <br>
                         <a class="button" href="<?php the_permalink(); ?>">
-                                Read More
-                            </a>
-                <?php endwhile; ?>
+                            Read More
+                        </a>
                     </article>
+                <?php endwhile; ?>
             <?php else : ?>
                 <?php echo wpautop('Sorry, No posts were found.'); ?>
             <?php endif; ?>
