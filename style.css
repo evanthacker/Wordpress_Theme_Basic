@@ -1,125 +1,99 @@
-/* 
-Theme Name: Basic Theme
-Author: Evan Thacker
-Author URI: http://www.marketersgenius.com
-Description: Basic Wordpress Theme
-Version: 1.0
+/*
+	Theme Name: Simple
+	Author: Evan Thacker
+	Author URI: http://www.evanthacker.com
+	Description: Very Simple Wordpress Theme
+	Version: 1.0
 */
 
 body{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        color: #333;
-        background: #f4f4f4;
-        margin: 0;
-        padding: 0;
-        line-height: 1.7em;
+	font-family: Arial;
+	font-size:15px;
+	color:#333;
+	background:#f4f4f4;
+	margin:0;
+	padding:0;
+	line-height: 1.7em;
 }
 
 a{
-    color: #333;
+	color:#333;
 }
 
 header{
-    background: #393939;
-    color: #ffffff;
-    padding: 20px 10px;
+	background: #393939;
+	color:#fff;
+	padding:20px 10px;
 }
 
 header h1{
-    color: #ffffff;
-    padding-bottom: 10px;
+	color:#fff;
+	margin:0;
+	padding:0;
+	padding-bottom: 10px;
 }
 
 .container{
-    width: 1020px;
-    margin: 0 auto;
-    overflow: auto;
+	width:1020px;
+	margin:0 auto;
+	overflow:auto;
 }
 
 .main{
-    margin:15px 0;
-    float: left;
-    width: 68%;
+	margin:15px 0;
 }
 
 footer{
-    background: #393939;
-    color: #ffffff;
-    padding: 20px 10px;
-    text-align: center;
+	background: #393939;
+	color:#fff;
+	padding:10px 10px;
+	text-align: center;
 }
 
 article.post{
-    border-bottom: 1px #ccc solid;
-    padding-bottom: 20px;
-    overflow: hidden;
+	border-bottom:1px #ccc solid;
+	overflow:hidden;
+	padding-bottom:20px;
 }
 
 article.post a.button{
-    display: inline-block;
-    background: #333;
-    color: #ffffff;
-    padding: 10px 5px;
-    margin-bottom: 10px;
-    text-decoration: none;
+	display:inline-block;
+	background:#333;
+	color:#fff;
+	padding:10px 5px;
+	margin-bottom: 10px;
+	text-decoration: none;
 }
 
 .meta{
-    background: #333;
-    color: #ffffff;
-    padding: 5px;
-}
-
-.meta a{
-    color:#ffffff;
+	background:#333;
+	color:#fff;
+	padding:5px;
 }
 
 .post-thumbnail img{
-    width: 100%;
-    height: auto;
+	width:100%;
+	height:auto;
 }
 
 .main-nav{
-    background-color: #000;
-    color: #ffffff;
-    padding: 5px;
+	background:#000;
+	color:#fff;
+	padding:5px;
 }
 
 .main-nav ul{
-    margin: 0;
-    padding: 0;
+	margin:0;
+	padding:0;
 }
 
 .main-nav li{
-    list-style: none;
-    float: left;
-    padding-right: 15px;
+	list-style: none;
+	float:left;
+	padding-right:15px;
 }
 
 .main-nav a{
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.clr{
-    clear: both;
-}
-
-.sidebar{
-    float: right;
-    width: 28%;
-}
-
-.side-widget{
-    border: 1px #ccc solid;
-    padding: 10px 10px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-
-.side-widget li{
-    list-style: none;
-    line-height: 2.2em;
-    border-bottom: dotted 1px #ccc;
+	color:#fff;
+	text-decoration: none;
 }
